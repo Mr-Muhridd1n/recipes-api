@@ -1,11 +1,11 @@
 {
-  "name": "json-server-demo",
+  "name": "recipes-api",
   "version": "1.0.0",
-  "description": "JSON Server on Render.com",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
+    "start": "node server.js"
   },
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.3"
   }
 }
